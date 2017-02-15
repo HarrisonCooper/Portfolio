@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!-- Written by Harrison Paul Cooper -->
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="./css/reset.css" /> 
+  <link rel="stylesheet" href="./css/main.css" />
+</head>
+
+<body id="home">
+
+<div id="wrapper">
+
+<header>
+    <div id="header">
+    <div id="leftbanner">    
+        <h1 id="title">My Website</h1>
+    </div>
+    <div id="rightbanner">
+        <div id="headerText">
+            <br>
+                Harrison Paul Cooper
+            <br>
+                Student at University of Sheffield
+        </div>
+        <div id="headerImg">
+            <figure id="imageMe">
+                <img src="./images/headerImg.jpeg" alt="me" />
+            </figure>
+        </div>
+    </div>
+    </div>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutme.html">About Me</a></li>
+        <li><a href="degree.html">My Degree</a></li>
+        <li><a href="javascript.html">Javascript</a></li>
+        <li><a href="diamond.html">The Diamond</a></li>
+        <li><a href="contact.html">Contact me</a></li>
+        <li><a href="accessibility.html">Accessibility</a></li>
+    </ul>
+</nav>
+
+<main>
+  
+<div id=contact>
+    
+    <h1>Contact Me</h1>
+    <br>
+    <p>
+        If you have any questions, please don't hesitate to message me directly here
+    </p>
+    <br>
+    <form name="myform" action="http://www.dcs.shef.ac.uk/cgi-bin/FormMail.pl" method="get">
+
+    <input type="hidden" name="recipient" value="hpcooper1@sheffield.ac.uk" />
+
+    <input type="hidden" name="subject" value="Test Form" />
+
+	  <p>
+      <label for="from">Your name: <input type="text" name="from" id="from"
+             maxlength="40" size="20" placeholder="type your name..."  required />
+    </p>
+     <p>
+      <label for="email">Your e-mail:</label>
+      <input type="email" name="email" id="email" placeholder="type your email..."
+             maxlength="40" size="20" required="required" />
+    </p>
+    <form name="myform" action"">
+    	
+    	<textarea name="comments" rows="5" cols="50" >
+    	</textarea>
+    	
+    	<br>
+    
+    </form> 
+	
+    <p>
+      <input type="submit" name="submit" id="submit" value="Submit" />
+      <input type="reset" />
+    </p> 
+
+</form>
+    
+</div>
+  
+</main>
+
+<footer> 
+    <p>&copy; Harrison Paul Cooper &nbsp;&nbsp;2015 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="accessibility.html">Accessibility</a></p>
+</footer>
+
+</div> <!-- wrapper -->
+
+</body>
+
+</html>
+

@@ -1,0 +1,240 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~general tags~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* Written by Harrison Paul Cooper*/
+
+body { 
+    background-color: #F2F2F2;
+    color: gray; 
+    font-family: arial, sans-serif, Helvetica;
+    line-height: 150%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1, h2 {
+  color: cadetblue; 
+}
+
+h1 {  
+  font-size: 120%;
+}
+
+h2 {
+  font-size: 100%;
+}
+
+p {
+   margin-bottom: 0.5em;
+}
+
+canvas { 
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#game {
+    text-align: center;
+}
+
+#contact {
+    text-align: center;
+}
+
+#accessibility {
+    text-align: center;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~wrapper~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#wrapper {
+    max-width: 1100px; 
+    width: 90%;
+    margin: 0px auto;
+    border: 1px gray solid;
+    background-color: white;
+    box-shadow: 10px 10px 5px #888888;
+    border-radius: 20px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~header~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+header {
+    padding: 0.5em, 10%, 0.5em, 10%;
+    background-color: white;
+    width: auto;
+    height: 111px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+header h1 {
+    padding: 10px 0 10px 0;
+    color: purple;
+    font-family: arial, sans-serif, Helvetica;
+    font-size: 200%;
+    line-height: 1em;
+}
+
+#header {
+    width: 100%;
+    height: inherit;
+    align: center;
+    min-width: 578px;
+    overflow: hidden;
+}
+
+
+#leftbanner{
+    width: 39%
+    padding: 0px 0px 0px 1%;
+    height: 111px;
+    float: left;
+}
+
+#title {
+    float: left;
+    text-shadow: 0.5px 1px 0 grey;
+    color: cadetblue;
+    font-family: arial, sans-serif, Helvetica;
+    padding-top: 10%;
+    padding-left: 0%;
+    padding-bottom: 10%;
+    padding-right: 0%;
+}
+
+#rightbanner {
+    max-height: 100%;
+    float: right;
+    width: 55%;
+    padding-right: 1%;
+}
+
+#headerText {
+    padding: 1%;0px;1%;0px;
+    float: left;
+    width: 60%;
+    height: auto;
+}
+
+#headerImg {
+    float: right;
+    width: 38%;
+}
+
+#imageMe {
+    width: 100%;
+}
+@media screen and (max-width: 640px) {
+    #leftbanner {
+        display: none; 
+    }
+    #rightbanner {
+        float: left;
+    }
+} 
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~navigation~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+nav {
+    background-color: cadetblue;
+    color: black;
+}
+
+nav ul {  
+    padding: 5px 0px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    padding-right: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    outline: none;
+}
+
+nav a:link { color: #F2F2F2; }
+
+nav a:hover { 
+    color: darkgrey;
+    tansition: box-shadow 0.2s ease;
+    text-decoration: underline;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~main content~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+main {
+    padding: 10px 20px 10px 20px;
+    width: auto;
+}
+
+main article {
+    padding: 5px;
+    border: 1px solid black;
+} 
+
+#leftMain {
+    float: left;
+    width: 75%;
+    padding-right: 2%;
+}
+
+#rightMain {
+    float: right;
+    width: 20%;
+    padding-left: 2;
+    border-left: 1px solid black;
+}
+
+#rightMain figure img {
+    max-width: 100%;
+}
+
+#rightMain figure {
+    box-shadow: 5px 5px 2px rgb(200,200,200);
+    transition: all 0.2s ease;
+    float: right;
+    margin: 10px 0 10px 20px;
+    border: 1px solid gray;
+    width: 80%;
+}
+
+#rightMain figure:hover {
+    box-shadow: 5px 5px 2px rgb(0,0,0);
+    transform: rotate(5deg);
+}
+
+#diamondP {
+    padding-bottom: 25px;
+    border-bottom: 1px solid black;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+/* ~~~footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+    clear: both;
+    font-size: 75%;
+    text-align: center;
+    border-top: 1px solid gray;
+    padding: 3px 10px;
+}   
+
+.italic {
+  font-style: italic;
+}
+
+/* ~~~end~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+

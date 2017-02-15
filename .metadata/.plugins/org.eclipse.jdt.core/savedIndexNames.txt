@@ -1,0 +1,5 @@
+INDEX VERSION 1.127+/Users/harrycooper/Desktop/Portfolio/.metadata/.plugins/org.eclipse.jdt.core
+3281876854.index
+2071803794.index
+3023684479.index
+2582598004.index
